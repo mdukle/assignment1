@@ -4,7 +4,6 @@ import functools
 import time
 from functools import lru_cache
 import matplotlib.pyplot as plt
-import numpy as np
 
 # storing values to later plot a graph
 fib_number = []
