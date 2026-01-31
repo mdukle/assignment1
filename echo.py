@@ -1,6 +1,7 @@
-#echo.py
+# echo.py
 
-def echo(text: str, repetitions: int =3) -> str:
+
+def echo(text: str, repetitions: int = 3) -> str:
     """Imitate a real-world echo."""
     if not text:
         print("Please input characters.")
