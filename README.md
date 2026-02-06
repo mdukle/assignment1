@@ -1,0 +1,35 @@
+# Assignment 1: Python Refresher for CS3980
+This assignment was done to refresh my knowledge on Python and specifically learn how to use decorators. 
+
+
+## Part 1: Python Programming Basics
+This part produced output that mimicked an echo in real-life. I followed the code snippet provided and used a for loop to iteratively go through the provided text, outputting the last three characters, then the last two, then the last one, followed by a period.
+
+Code snippet:
+
+![Code snippet](echo_code_snippet.png)
+
+Code output:
+
+![Code output](echo_output.png)
+
+## Part 2: Python Decorator Implementation
+This part used a decorator from a Python package called functools as well as a timer decorator. I also created a virtual environment for this assignment to practice installing packages in specific environments, instead of globally. 
+
+Code snippet:
+
+![Code snippet](fib_code_snippet_1.png)
+![Code snippet](fib_code_snippet_2.png)
+
+Code output:
+
+![Code snippet](fib_output_1.png)
+![Code snippet](fib_output_2.png)
+![Code snippet](fib_output_3.png)
+![Code snippet](fib_output_4.png)
+
+Graph output:
+
+![Code snippet](fib_graph_output.png)
+
+This graph displays the Fibonacci number for calculation on the x axis and the time it took in seconds to compute the calculation (measured by the timer decorator) on the y-axis. Without using the lru_cache decorator, we would expect these Fibonacci calculations to grow exponentially since each value gets computed individually multiple times. As a result, the graph would yield an exponential line. However, with caching, the result gets stored in memory and thus can return future calls faster than without caching the data. Since each value is only calculated once, the time grows more linearly, as opposed to exponential. We still see an increase, however, as the arithmetic operations are occurring on larger integers. 
