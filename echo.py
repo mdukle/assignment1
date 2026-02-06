@@ -4,13 +4,16 @@
 def echo(text: str, repetitions: int = 3) -> str:
     """Imitate a real-world echo."""
     if not text:
-        print("Please input characters.")
-    else:
-        for i in range(3, 0, -1):
-            print(text[-i:])
-        print(".")
+        return "Please input characters."
+
+    statement = []
+    for i in range(repetitions, 0, -1):
+        statement.append(text[-i:])
+    statement.append(".")
+
+    return "\n".join(statement)
 
 
 if __name__ == "__main__":
     text = input("Yell something at a mountain: ")
-    echo(text)
+    print(echo(text))
