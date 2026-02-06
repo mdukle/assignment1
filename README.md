@@ -7,29 +7,29 @@ This part produced output that mimicked an echo in real-life. I followed the cod
 
 Code snippet:
 
-![Code snippet](echo_code_snippet.png)
+![Code snippet](screenshots/echo_code_snippet.png)
 
 Code output:
 
-![Code output](echo_output.png)
+![Code output](screenshots/echo_output.png)
 
 ## Part 2: Python Decorator Implementation
 This part used a decorator from a Python package called functools as well as a timer decorator. I also created a virtual environment for this assignment to practice installing packages in specific environments, instead of globally. 
 
 Code snippet:
 
-![Code snippet](fib_code_snippet_1.png)
-![Code snippet](fib_code_snippet_2.png)
+![Code snippet](screenshots/fib_code_snippet_1.png)
+![Code snippet](screenshots/fib_code_snippet_2.png)
 
 Code output:
 
-![Code snippet](fib_output_1.png)
-![Code snippet](fib_output_2.png)
-![Code snippet](fib_output_3.png)
-![Code snippet](fib_output_4.png)
+![Code snippet](screenshots/fib_output_1.png)
+![Code snippet](screenshots/fib_output_2.png)
+![Code snippet](screenshots/fib_output_3.png)
+![Code snippet](screenshots/fib_output_4.png)
 
 Graph output:
 
-![Code snippet](fib_graph_output.png)
+![Code snippet](screenshots/fib_graph_output.png)
 
 This graph displays the Fibonacci number for calculation on the x axis and the time it took in seconds to compute the calculation (measured by the timer decorator) on the y-axis. Without using the lru_cache decorator, we would expect these Fibonacci calculations to grow exponentially since each value gets computed individually multiple times. As a result, the graph would yield an exponential line. However, with caching, the result gets stored in memory and thus can return future calls faster than without caching the data. Since each value is only calculated once, the time grows more linearly, as opposed to exponential. We still see an increase, however, as the arithmetic operations are occurring on larger integers. 
