@@ -2,20 +2,16 @@
 This assignment was done to refresh my knowledge on Python and specifically learn how to use decorators. 
 
 ## Prerequisites and Usage
-Packages were installed in a virtual environment so users must enter the virtual environment to run the files. Outlined below are instructions on how to enter the virtual environment, exit the virtual environment, and run the files. 
+Packages were installed in a virtual environment, so users must enter the virtual environment to run the files. Outlined below are instructions on how to enter the virtual environment, exit the virtual environment, and run the files through the terminal. 
 
-```
-In the terminal...
-
-To enter the virtual environment: .\venv\Scripts\activate
-To exit the virtual environment: deactivate
+To enter the virtual environment: ```.\venv\Scripts\activate``` <br>
+To exit the virtual environment: ```deactivate```
 
 Once in venv, run the programs with the following commands:
 
-echo program: py echo.py
-fibonacci program: py fib.py
+echo program: ```py echo.py``` <br>
+fibonacci program: ```py fib.py```
 
-```
 
 ## Part 1: Python Programming Basics
 This part produced output that mimicked an echo in real-life. I followed the code snippet provided and used a for loop to iteratively go through the provided text, outputting the last three characters, then the last two, then the last one, followed by a period. I added each segment to a list and then printed the joined values in the list.
