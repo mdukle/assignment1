@@ -29,7 +29,7 @@ This part produced output that mimicked an echo in real-life. I followed the cod
 ![Code output](screenshots/echo_output.png)
 
 ## Part 2: Python Decorator Implementation
-This part used a lru_cache decorator from a Python package called functools, as well as a timer decorator. The timer decorator calculated the runtime and saved that value, as well as the Fibonacci number, to separate lists, which were later referenced to plot a graph. I also created a virtual environment for this assignment to practice installing packages in a specific environment, rather than globally. 
+This part used a lru_cache decorator from a Python package called functools, as well as a timer function and decorator. The timer function calculated the runtime (by subtracting the end and start time) and saved that value, as well as the Fibonacci number, to separate lists, which were later referenced to plot a graph. The fib function works by returning the same integer that was entered for 0 and 1, since that's what the fibonacci number would be. But, for an integer greater than or equal to 2, the function calls itself in a recursive manner allowing for the calculation of the fibonacci number. Using lru_cache, the fibonacci calculation for each integer is only computed once and then referenced, instead of being calculated again and again. Lastly, I graphed the data using matplotlib functions. I also created a virtual environment for this assignment to practice installing packages in a specific environment, rather than globally. 
 
 #### Code snippet:
 
