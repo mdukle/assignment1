@@ -3,7 +3,7 @@ This assignment was done to refresh my knowledge on Python and specifically lear
 
 
 ## Part 1: Python Programming Basics
-This part produced output that mimicked an echo in real-life. I followed the code snippet provided and used a for loop to iteratively go through the provided text, outputting the last three characters, then the last two, then the last one, followed by a period.
+This part produced output that mimicked an echo in real-life. I followed the code snippet provided and used a for loop to iteratively go through the provided text, outputting the last three characters, then the last two, then the last one, followed by a period. I added each segment to a list and then printed the joined values in the list.
 
 #### Code snippet:
 
@@ -14,7 +14,7 @@ This part produced output that mimicked an echo in real-life. I followed the cod
 ![Code output](screenshots/echo_output.png)
 
 ## Part 2: Python Decorator Implementation
-This part used a lru_cache decorator from a Python package called functools as well as a timer decorator. I also created a virtual environment for this assignment to practice installing packages in specific environments, instead of globally. 
+This part used a lru_cache decorator from a Python package called functools, as well as a timer decorator. The timer decorator calculated the runtime and saved that value, as well as the Fibonacci number, to separate lists, which were later referenced to plot a graph. I also created a virtual environment for this assignment to practice installing packages in a specific environment, rather than globally. 
 
 #### Code snippet:
 
